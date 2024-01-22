@@ -9,3 +9,7 @@
 ## 1.0.2
 
 * Update flutter_lints version
+
+## 1.0.3
+
+* Fix dart sdk version

@@ -7,14 +7,22 @@ import 'package:flutter/material.dart';
 class TypingText extends StatefulWidget {
   /// The word(s) that the widget will display, typing out one after another. This list cannot be empty.
   final List<String> words;
+
   /// The TextStyle to apply to the text. If null, the default TextStyle for Text widgets is used.
   final TextStyle? style;
+
   /// The amount of time to pause between typing each letter.
   final Duration letterSpeed;
+
   /// The amount of time to pause between typing each word.
   final Duration wordSpeed;
 
-  const TypingText({super.key, required this.words, this.style, this.letterSpeed = const Duration(milliseconds: 100), this.wordSpeed = const Duration(milliseconds: 1200)});
+  const TypingText(
+      {super.key,
+      required this.words,
+      this.style,
+      this.letterSpeed = const Duration(milliseconds: 100),
+      this.wordSpeed = const Duration(milliseconds: 1200)});
 
   @override
   State<TypingText> createState() => _TypingTextState();
@@ -94,7 +102,8 @@ class _TypingTextState extends State<TypingText> {
   void initState() {
     super.initState();
 
-    assert (widget.words.isNotEmpty, 'Provide at least one word to the TypingText widget.');
+    assert(widget.words.isNotEmpty,
+        'Provide at least one word to the TypingText widget.');
 
     currentWord = '';
     currentFullWord = widget.words.first;

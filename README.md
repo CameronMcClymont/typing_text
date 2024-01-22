@@ -11,29 +11,46 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A customizable, animated text widget for Flutter apps, simulating the effect of typing.
+This package is ideal for creating engaging text animations, such as typing effects in chatbots, creative text displays in storytelling apps, or any application where text needs to be displayed dynamically and with visual flair.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Animated Typing Effect: Simulates a character-by-character text typing animation that cycles between words.
+* Customizable Speed: Control the speed of typing and the delay between words.
+* Handles State Changes: Seamless transition when rebuilding the widget with a new list of words.
+
+![Typing Text GIF](https://i.imgur.com/bDBCmzQ.gif)
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use the typing_text package in your Flutter app, first add the dependency to your pubspec.yaml:
+
+```yaml
+dependencies:
+  typing_text: ^0.1.0
+```
+
+Then, import the package in your Dart file:
+
+```dart
+import 'package:typing_text/typing_text.dart';
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+TypingText(
+  words: ['Hello', 'World'],
+  letterSpeed: Duration(milliseconds: 100),
+  wordSpeed: Duration(milliseconds: 1000),
+  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+For more information, bug reports, feature requests, or contributions, please visit the [GitHub repository](https://github.com/CameronMcClymont/typing_text).
+
+Feedback and contributions are welcome!

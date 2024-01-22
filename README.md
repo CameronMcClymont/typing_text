@@ -20,8 +20,7 @@ This package is ideal for creating engaging text animations, such as typing effe
 * Customizable Speed: Control the speed of typing and the delay between words.
 * Handles State Changes: Seamless transition when rebuilding the widget with a new list of words.
 
-![Typing Text GIF](https://i.imgur.com/UPuwStf.gif)
-
+![Typing Text GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW9yczh3Mmx6ZHR6NHgxcmVxNWRvOWdodWg2c3hrazY4M29jbm5sZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/guGGYsKLCjFiacvLdK/giphy.gif)
 
 ## Getting started
 

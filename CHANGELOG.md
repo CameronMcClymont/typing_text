@@ -13,3 +13,7 @@
 ## 1.0.3
 
 * Fix dart sdk version
+
+## 1.0.4
+
+* Update README gif

@@ -17,3 +17,7 @@
 ## 1.0.4
 
 * Update README gif
+
+## 1.0.5
+
+* Update `flutter_lints` version

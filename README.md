@@ -16,19 +16,25 @@ This package is ideal for creating engaging text animations, such as typing effe
 
 ## Features
 
-* Animated Typing Effect: Simulates a character-by-character text typing animation that cycles between words.
-* Customizable Speed: Control the speed of typing and the delay between words.
-* Handles State Changes: Seamless transition when rebuilding the widget with a new list of words.
+* **Animated Typing Effect:** Simulates a character-by-character text typing animation that cycles between words.
+* **Customizable Speed:** Control the speed of typing and the delay between words.
+* **Handles State Changes:** Seamless transition when rebuilding the widget with a new list of words.
 
 ![Typing Text GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW9yczh3Mmx6ZHR6NHgxcmVxNWRvOWdodWg2c3hrazY4M29jbm5sZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/guGGYsKLCjFiacvLdK/giphy.gif)
 
 ## Getting started
 
-To use the typing_text package in your Flutter app, first add the dependency to your pubspec.yaml:
+To use the `typing_text` package in your Flutter app, first add the dependency to your pubspec.yaml:
+
+```bash
+flutter pub add typing_text
+```
+
+or
 
 ```yaml
 dependencies:
-  typing_text: ^0.1.0
+  typing_text: ^1.0.5
 ```
 
 Then, import the package in your Dart file:
@@ -38,6 +44,8 @@ import 'package:typing_text/typing_text.dart';
 ```
 
 ## Usage
+
+To use the `TypingText` widget, simply provide a list of words to display, along with optional parameters for customizing the animation speed and text style.
 
 ```dart
 TypingText(

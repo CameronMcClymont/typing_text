@@ -1,5 +1,3 @@
-library typing_text;
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
